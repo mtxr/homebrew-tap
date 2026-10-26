@@ -1,28 +1,28 @@
 class Csw < Formula
   desc "Switch between Claude Code and Claude Desktop accounts"
   homepage "https://github.com/mtxr/claude-switch"
-  version "1.0.0"
+  version "1.0.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/mtxr/claude-switch/releases/download/v1.0.0/csw-aarch64-apple-darwin"
-      sha256 "6801cdea24a619c3cbdf7c72b7ff8db8e7bc6a7dc5403fbf473bb4f2bc5bb85a"
+      url "https://github.com/mtxr/claude-switch/releases/download/v1.0.1/csw-aarch64-apple-darwin"
+      sha256 "5222144dd75f94d5c666164fb62369b50b1aabfeb6966870f4e422415215956e"
     end
     on_intel do
-      url "https://github.com/mtxr/claude-switch/releases/download/v1.0.0/csw-x86_64-apple-darwin"
-      sha256 "17a42387d64e2bdad8d5734755907b3f613c6e2f056c6a4113bcb716d1d8168b"
+      url "https://github.com/mtxr/claude-switch/releases/download/v1.0.1/csw-x86_64-apple-darwin"
+      sha256 "9371f12af674c9d7a08ee8e5a7137e6b05caee793c505ddcfa6f2ea0e1ff754c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/mtxr/claude-switch/releases/download/v1.0.0/csw-aarch64-unknown-linux-musl"
-      sha256 "2b1e49eaad7f95384208da18b9d02f47c91f544722b5ae3c46b187da93905fb4"
+      url "https://github.com/mtxr/claude-switch/releases/download/v1.0.1/csw-aarch64-unknown-linux-musl"
+      sha256 "5ea824e1bb464aeced6ac4f5e28dd0fef067b71b6fb653751f806f9c506186e0"
     end
     on_intel do
-      url "https://github.com/mtxr/claude-switch/releases/download/v1.0.0/csw-x86_64-unknown-linux-musl"
-      sha256 "6d7e9c1e36c5ce524ed0443a59c74fc7ceb2f7d05fd694d247314bf99e49a1f6"
+      url "https://github.com/mtxr/claude-switch/releases/download/v1.0.1/csw-x86_64-unknown-linux-musl"
+      sha256 "04f6102efcd943943761b3818e441b86808c819e72cd03e74a5ec8e04cdfa3d0"
     end
   end
 
